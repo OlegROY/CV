@@ -34,7 +34,7 @@ body {
 
 /* Box model*/
 .container {
-    max-width: 750px;
+    max-width: 850px;
     margin: auto;
 }
 .social {
@@ -48,6 +48,6 @@ body {
     padding-left: 20px;
     margin: 5px;
     border-radius: 11px;
-    border: 3px solid black;
+    border: 3px solid rgb(146, 133, 133);
     border-top-width: 25px;
 }
