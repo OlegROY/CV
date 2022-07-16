@@ -10,10 +10,35 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.avatar {
-    width: 200px;
-    border-radius: 28px;
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+.body_all {
+    max-width: 850px;
+    margin: auto;
+}
+
+#header {
+    height: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;}
+    #header .header_top{
+            padding-top: 1px;}
+        #header .header_top .header_top_foto{
+            float: left;
+            width: 200px;
+            border-radius: 28px;
+            box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);}
+        #header .header_top .header_top_name{
+            height: auto;
+            margin-top: 55px;
+            margin-left: 220px;
+            text-align: left;                        
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 5px;
+    padding-left: 1px;
+    padding-right: 1px;
 }
 
 .icon {
@@ -33,10 +58,7 @@ body {
 }
 
 /* Box model*/
-.container {
-    max-width: 850px;
-    margin: auto;
-}
+
 .social {
     background: rgb(216, 209, 209);
     /* padding: 15px; */
